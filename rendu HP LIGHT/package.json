@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@prisma/client": "^5.12.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ip": "^2.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.12.1"
+  },
+  "name": "site-de-carte-harry-potter-main-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

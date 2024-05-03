@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hogwart's Battle</title>
+    <link rel="stylesheet" href="./CSS/classeur.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Création de l'entête-->
+      <div id="banniere">
+        <h1>List</h1>
+      </div>
+      <div id="icone_menu">
+        <img src="images/icone_menu.png" />
+      </div>
+      <!-- Création du menu-->
+      <nav class="menu">
+        <p>Menu</p>
+
+        <div id="container">
+          <a href="index.html" class="tirage">Tirage</a>
+        </div>
+        <div id="container">
+          <a href="" class="classeur">Classeur</a>
+
+      </nav>
+    </header>
+    <main>
+      <!-- Création des boutons de filtre-->
+      <div id="boutonContainer">
+        <button
+          type="button"
+          id="all"
+          name="maison"
+          value="Tous les personnages"
+        >
+          Tous les personnages
+        </button>
+
+        <button type="button" id="Gryffindor" name="maison" value="Gryffindor">
+          Gryffindor
+        </button>
+
+        <button type="button" id="Slytherin" name="maison" value="Slytherin">
+          Slytherin
+        </button>
+
+        <button type="button" id="Hufflepuff" name="maison" value="Hufflepuff">
+          Hufflepuff
+        </button>
+
+        <button type="button" id="Ravenclaw" name="maison" value="Ravenclaw">
+          Ravenclaw
+        </button>
+      </div>
+      <!-- Création du container pour les cartes-->
+      <div id="cardContainer"></div>
+    </main>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

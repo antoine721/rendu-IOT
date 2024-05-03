@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La bataille de Poudlard</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Création de l'entête-->
+      <div id="banniere">
+        <h1>Harry Potter Website</h1>
+      </div>
+      <div id="icone_menu">
+        <img src="images/icone_menu.png" />
+      </div>
+      <!-- Création du menu-->
+      <nav class="menu">
+        <p>Menu</p>
+
+        <div id="container">
+          <a href="" class="tirage">Tirage</a>
+        </div>
+        <div id="container">
+          <a href="classeur.html" class="deck">Classeur</a>
+      </nav>
+    </header>
+    <main>
+      <!-- Création du container pour les cartes tirées par l'utilisateur-->
+      <div id="tirageContainer">
+        <div id="imageHTML"></div>
+        <div id="nomHTML"></div>
+        <div id="resultatTirage"></div>
+        <button class="button" type="submit" onclick="choicePerso()">
+          Tirer
+        </button>
+      </div>
+    </main>
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
