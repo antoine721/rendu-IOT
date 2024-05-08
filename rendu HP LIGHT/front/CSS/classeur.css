@@ -227,6 +227,7 @@ header h1 {
 #boutonContainer {
   /* Style des boutons */
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 5%;
 }
